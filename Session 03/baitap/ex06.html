@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="fullName">Họ và tên:</label></td>
+                <td><input type="text" name="fullName" id="fullName"></td>
+            </tr>
+            <tr>
+                <td><label for="date">Ngày sinh:</label></td>
+                <td><input type="date" name="date" id="date"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Giới tính:</label></td>
+                <td><input type="radio" name="gender" id="male"><label for="male">Nam</label>
+                    <input type="radio" name="gender" id="female"><label for="female">Nữ</label></td>
+            </tr>
+            <tr>
+                <td><label for="card">Số căn cước công dân:</label></td>
+                <td><input type="text" name="card" id="card"></td>
+            </tr>
+            <tr>
+                <td><label for="passportdate">Ngày cấp:</label></td>
+                <td><input type="date" name="passportdate" id="passportdate"></td>
+            </tr>
+            <tr>
+                <td><label for="passportaddress">Nơi cấp:</label></td>
+                <td><input type="number" name="passportaddress" id="passportaddress"></td>
+            </tr>
+            <tr>
+                <td><label for="tele">Số điện thoại:</label></td>
+                <td><input type="tel" name="tele" id="tele"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Địa chỉ thường trú:</label></td>
+                <td><textarea name="address" id="address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="temporaryaddress">Địa chỉ tạm trú:</label></td>
+                <td><textarea name="temporaryaddress" id="temporaryaddress"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="card">Loại căn cước công dân::</label></td>
+                <td><input type="radio" name="card" id="new"><label for="new">Căn cước công dân mới</label>
+                    <input type="radio" name="card" id="old"><label for="old">Căn cước công dân cũ</label></td>
+            </tr>
+            <tr>
+                <td><label for="special">Dân tộc:</label></td>
+                <td><input type="text" name="special" id="special"></td>
+            </tr>
+            <tr>
+                <td><label for="religion">Tôn giáo:</label></td>
+                <td><input type="text" name="religion" id="religion"></td>
+            </tr>
+            <tr>
+                <td><label for="Nationality">Quốc tịch:</label></td>
+                <td><input type="text" name="Nationality" id="Nationality" value="Việt Nam"></td>
+            </tr>
+            <tr>
+                <td><label for="parentName">Họ tên cha/mẹ::</label></td>
+                <td><input type="text" name="parentName" id="parentName"></td>
+            </tr>
+            <tr>
+                <td><label for="parentcard">Số CCCD/CMND của cha/mẹ::</label></td>
+                <td><input type="text" name="parentcard" id="parentcard"></td>
+            </tr>
+            <tr>
+                <td><label for="city">Tỉnh/Thành phố:</label></td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="" selected style="display: none">Chọn Tỉnh/Thành phố</option>
+                        <option value="hn">Hà Nội</option>
+                        <option value="hcm">Hồ Chí Minh</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Gửi thông tin"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
