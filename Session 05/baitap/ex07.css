@@ -1,0 +1,53 @@
+ body {
+            background-color: #EEF4F6;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Khung lớn bao toàn bộ bảng */
+        .wrapper {
+            width: 80%;
+            margin: 40px ;
+            background-color: #FFFFFF;
+            padding: 35px;
+            border-radius: 18px;
+        }
+
+        table {
+            width: 100%;
+            border-spacing: 0 22px;
+        }
+
+        .card-row {
+            background-color: #D9EAF2;
+            border-radius: 18px;
+            transition: 0.2s;
+        }
+        .card-row:hover {
+            cursor: pointer;
+            background-color: #F0DB75;
+        }
+
+        .card-row.active {
+            background-color: #F0DB75 !important;
+        }
+
+        .card-image {
+            padding: 10px;
+            object-fit: cover;
+            border-top-left-radius: 12px;
+            border-bottom-left-radius: 12px;
+        }
+
+        .card-content {
+            width: 80%;
+            padding: 0 12px;
+            text-align:left;
+            color: #175E82;
+            font-weight: 600;
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+
+        .card-content::after {
+            content: ' →';
+        }

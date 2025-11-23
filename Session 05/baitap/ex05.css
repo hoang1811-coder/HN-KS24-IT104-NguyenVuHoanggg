@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+table {
+    background-color: #F4F4F4;
+    text-align: center;
+}
+.blue {
+    background-color: #027BFF;
+    color: white;
+}
+.white {
+    background-color:#FFFFFF;
+}
+.btn-view {
+    background-color: green;
+    width: 70px;
+    height: 30px;
+}
+.btn-update {
+    background-color: yellow;
+     width: 70px;
+    height: 30px;
+}
+.btn-delete {
+    background-color: red;
+     width: 70px;
+    height: 30px;
+}

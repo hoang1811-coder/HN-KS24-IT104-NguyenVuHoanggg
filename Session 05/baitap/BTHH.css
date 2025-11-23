@@ -1,0 +1,62 @@
+/* reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.card {
+  width: 350px;
+  text-align: center;
+  background-color: white;
+  margin: 20px;
+}
+
+.card .desc {
+  color: #8c8c8c;
+}
+
+.card ul {
+  list-style: none;
+}
+.card li {
+  color: red;
+}
+
+.card li::before,
+.card li::after {
+  content: '';
+  width: 30px;
+  height: 2px;
+  background-color: red;
+  display: inline-block;
+}
+
+.card li:hover {
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card li:hover::before,
+.card li:hover::after {
+  background-color: blue;
+}
+
+button {
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border: none;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: red;
+  cursor: pointer;
+}

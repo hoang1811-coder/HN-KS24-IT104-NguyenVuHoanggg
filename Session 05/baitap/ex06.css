@@ -1,0 +1,39 @@
+ body {
+            background-color: #F5F5F5;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .block {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px 0;
+            text-align: center;
+            background-color: #D9EAF2;
+            border-radius: 8px;
+            width: 400px;
+        }
+        .block img {
+            object-fit: cover;
+        }
+        .block h2 {
+            color: #126387;
+        }
+        .block:nth-child(2n+1) {
+            border: 1px red solid;
+            border-radius: 8px;
+        }
+
+        button {
+            background-color: #269DD9;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+        }
+        button::before {
+            content: '🛍️';
+        }
+        button:hover {
+            cursor: pointer;
+            background-color: #126387;
+        }
