@@ -1,0 +1,18 @@
+.container {
+    background-color: #EEF4F6;
+    padding: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+  a::after {
+     content: ' →';
+}
+a:hover{
+    color: red;
+}

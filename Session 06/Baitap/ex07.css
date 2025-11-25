@@ -1,0 +1,26 @@
+.container {
+            background-color: #EEF4F6;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 16px;
+            width: 70%;
+        }
+        .poster {
+            background-color: #D9EAF2;
+            margin: 8px;
+            padding: 8px;
+        }
+        .poster table {
+            border-spacing: 10px;
+        }
+        .poster p {
+            margin: 8px 0;
+            padding: 8px 0;
+            color: #175E82;
+        }
+        .poster:hover{
+            cursor: pointer;
+            background-color: #F0DB75;
+        }
+        .poster:hover p::after {
+            content: ' →';
+        }

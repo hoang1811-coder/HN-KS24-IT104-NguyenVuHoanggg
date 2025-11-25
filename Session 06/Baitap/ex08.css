@@ -1,0 +1,33 @@
+#register-form {
+            width: 300px;
+            padding: 16px;
+            margin: 20px 30px 40px 50px;
+            background-color: #EEF4F6;
+            border-radius: 8px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #registe-fom label {
+            width: 100%;
+        }
+        #register-form input {
+            width: 100%;
+            margin-bottom: 10px;
+            border: 1px #8CBFD9 solid;
+            border-radius: 4px;
+            height: 20px;
+        }
+        #register-form input:focus {
+            background-color: yellow;
+            
+        }
+        button {
+            border: none;
+            background-color: #269DD9;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+        }
+        button:hover {
+            cursor: pointer;
+            background-color: #106e9c;
+        }

@@ -1,0 +1,28 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+button[data-type = "primary"] {
+    background-color: #269DD9;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 15px;
+}
+button[data-type = "secondary"] {
+    background-color: #73848C;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 15px;
+}button[data-type = "danger"] {
+    background-color: red;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 15px;
+}

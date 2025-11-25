@@ -1,0 +1,27 @@
+body {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.products {
+            background-color: #EEF4F6;
+            width: 50%;
+            padding: 16px;
+        }
+        .products li {
+            padding: 8px;
+            margin: 8px 0;
+            list-style: none;
+            background-color: #D9EAF2;
+            border-radius: 4px;
+        }
+        .products li:hover {
+            background-color: #9ba3a5;
+            font-weight: 500px;
+            cursor: pointer;
+        }
+        .products li[data-sale="true"] {
+            background-color: #f3df78;
+        }
+        .products li[data-sale="true"]:hover {
+            background-color: #f5d32a;
+        }

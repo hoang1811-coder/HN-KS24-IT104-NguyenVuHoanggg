@@ -1,0 +1,38 @@
+.body {
+    width: 20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.profile-card {
+    width: 450px;
+    margin-left: 100px;
+    background-color: #D9EAF2;
+    border-radius: 8px;
+    text-align: center;
+}
+.profile-card img {
+    border-radius: 100px;
+}
+.profile-card .bio {
+    color: #2E576B;
+    font-size: 20px;
+}
+.profile-card .name {
+    font-weight: 700;
+    line-height: 5px;
+}
+.profile-card .follow-btn::after{
+     content: ' →';
+}
+.follow-btn {
+     padding: 12px 26px;
+     margin-bottom: 20px;
+     border: none;
+     border-radius: 8px;
+     background-color: #269DD9;
+     color: white;
+}
+.follow-btn:hover{
+    font-weight: 700px;
+    cursor: pointer;
+    background-color: black;
+}
