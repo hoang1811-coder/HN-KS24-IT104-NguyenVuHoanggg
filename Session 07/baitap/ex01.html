@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone UI</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 880px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #24124D;
+        }
+
+        .container {
+            padding: 20px 0;
+        }
+
+        /* TITLE */
+        .text {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 30px;
+        }
+
+        /* LIST */
+        ul {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+
+        ul li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 18px;
+            font-size: 24px;
+            line-height: 1.4;
+        }
+
+        ul li img {
+            width: 35px;
+            height: 35px;
+            margin-right: 15px;
+        }
+
+        /* BUTTONS */
+        .active {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .btn-one {
+            background-color: #D92C20;
+            color: white;
+            font-size: 22px;
+            padding: 15px 35px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .btn-two {
+            background-color: white;
+            color: #24124D;
+            font-size: 22px;
+            padding: 15px 35px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="text">Khóa Học Lập Trình Từ Con Số 0<br>Tự Tin Đi Làm Sau 6 Tháng</h2>
+
+        <ul>
+            <li>
+                <img src="https://rikkei.edu.vn/wp-content/themes/hoabinhweb-v3-154-child-theme/image/icon-check.png" alt="">
+                Chắc nền tảng, giỏi thực hành – Có ít nhất 2 Project sau khóa học
+            </li>
+
+            <li>
+                <img src="https://rikkei.edu.vn/wp-content/themes/hoabinhweb-v3-154-child-theme/image/icon-check.png" alt="">
+                Tốt nghiệp chinh phục công việc LƯƠNG 8 CHỮ SỐ
+            </li>
+
+            <li>
+                <img src="https://rikkei.edu.vn/wp-content/themes/hoabinhweb-v3-154-child-theme/image/icon-check.png" alt="">
+                Nắm chắc vị trí việc làm tại Rikkeisoft với chứng chỉ tiếng Nhật từ N3
+            </li>
+        </ul>
+
+        <div class="active">
+            <button class="btn-one">Nhận tư vấn 1:1</button>
+            <button class="btn-two">Kiểm tra độ phù hợp</button>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <style>
+        .container {
+            width: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.4);
+            border-radius: 8px;
+            font-family: Arial, Helvetica, sans-serif;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin: 40px;
+            padding: 0;
+        }
+        .container .header {
+            width: 100%;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+            position: relative;
+        }
+        .header:nth-child(2) {
+            background-color: #D0E2FF;
+            color: #558fec;
+            border: 0px solid;
+        }
+        .header p {
+            font-weight: 600;
+            margin: 0;
+            padding: 15px 10px;
+        }
+        .header .arrow {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+        }
+        .content p {
+            padding: 10px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+        }
+        .content .bold {
+            font-weight: bold;
+        }
+        .content .color-pink {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p>Accordion Item #1</p>
+            <span class="arrow"><i class="fa-solid fa-angle-up"></i></span>
+        </div>
+
+        <div class="header">
+            <p>Accordion Item #2</p>
+            <span class="arrow"><i class="fa-solid fa-angle-down"></i></span>
+        </div>
+
+        <div class="content">
+            <p><span class="bold">This is the second item's accordion body.</span> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.
+                These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables.
+                It's also worth noting that just about any HTML can go within the <span class="color-pink">.accordion-body</span>, though the transition does limit overflow.
+            </p>
+        </div>
+
+        <div class="header">
+            <p>Accordion Item #3</p>
+            <span class="arrow"><i class="fa-solid fa-angle-up"></i></span>
+        </div>
+    </div>
+</body>
+</html>
