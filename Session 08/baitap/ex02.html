@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(135deg, #4b3c56, #2d2441);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            width: 700px;
+            padding: 40px;
+            color: white;
+        }
+
+        label {
+            font-size: 14px;
+            margin-bottom: 5px;
+            display: inline-block;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        input, textarea {
+            width: 100%;
+            background-color: transparent;
+            border: 1px solid #7d7d7e;
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        textarea {
+            resize: none;
+            height: 130px;
+        }
+
+        .btn {
+            margin-top: 20px;
+        }
+
+        button {
+            background: white;
+            color: black;
+            padding: 12px 30px;
+            border: none;
+            font-size: 13px;
+            border-radius: 4px;
+            letter-spacing: 2px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        td {
+            padding-right: 20px;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    <label>Name</label>
+                    <input type="text">
+                </td>
+                <td>
+                    <label>Email</label>
+                    <input type="text">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="padding-top: 20px;">
+                    <label>Message</label>
+                    <textarea></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="btn">
+                    <button>SEND MESSAGE</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

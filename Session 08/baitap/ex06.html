@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./BT6.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color: black;
+}
+div {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 100px;
+    width: 500px;
+}
+i {
+    margin-right: 20px;
+}
+input {
+    border: none;
+    font-size: 16px;
+}
+input:focus {
+    outline: none;
+}
+.img-camera, .img-micro {
+    position: absolute;
+    right: 0;
+}
+.img-camera {
+    width: 30px;
+    top: 12px;
+    right: 12px;
+}
+.img-micro {
+    width: 16px;
+    top: 17px;
+    right: 60px;
+}
+img {
+    width: 100%;
+}
+</style>
+<body>
+    <main>
+        <div>
+            <i id="search" class="fa-solid fa-magnifying-glass"></i><input type="search" id="search" name="search" placeholder="Nhập từ khóa tìm kiếm">
+            <img class="img-micro" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1432px-Google_mic.svg.png" alt="">
+            <img class="img-camera" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/1200px-Google_Lens_Icon.svg.png" alt="">
+        </div>
+    </main>
+</body>
+</html>
