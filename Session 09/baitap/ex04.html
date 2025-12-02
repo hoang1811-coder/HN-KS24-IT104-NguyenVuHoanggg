@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        header {
+            background-color: #3498DB;
+            padding: 0 20px;
+            margin-bottom: 10px;
+            line-height: 50px;
+        }
+        main {
+            display: flex;
+            gap: 10px;
+            height: calc(100vh - 120px);
+        }
+        .side-bar {
+            background-color: #2ECC71;
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .content {
+            background-color: #E74C3C;
+            flex-grow: 3;
+            padding: 20px;
+        }
+        footer {
+            background-color: #9B59B6;
+            line-height: 50px;
+            margin-top: 10px;
+            padding: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Header
+    </header>
+    <main>
+        <section class="side-bar">Side Bar</section>
+        <section class="content">Content</section>
+    </main>
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>
