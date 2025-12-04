@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container {
+        width: 1200px;
+        height: 600px;
+        background-color: #F5E6D0;
+        margin: 100px;
+        position: relative;
+    }
+    .container .conten1 {
+        display: flex;
+        gap: 20px;
+        position: absolute;
+        right: 50px;
+        top: 30px;
+    }
+    .container .conten1 a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .container .conten2 h2 {
+        font-size: 35px;
+        width: 350px;
+        line-height: 45px;
+        position: absolute;
+        left: 150px;
+        top: 250px;
+    }
+    .container .conten2 p{
+        font-size: 15px;
+        width: 400px;
+        line-height: 20px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        left: 150px;
+        top: 380px;
+    }
+    .container .conten2 button {
+        padding: 13px 40px;
+        background-color: #FF6464;
+        border: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        position: absolute;
+        left: 150px;
+        top: 480px;
+    }
+    img {
+        width: 250px;
+        box-shadow: 0px 20px 20px rgba(0,0,0,0.3);
+        border-radius: 400px; 
+        position: absolute;
+        right: 350px;
+        top: 200px;
+}
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="conten1">
+            <a href="">Works</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+        </div>
+        <div class="conten2">
+            <h2>Hi, I am John, Creative Technologist</h2>
+            <p>
+                Amet minim mollit non deserunt unanico est si aliqua color do amel
+               sint. Velit officia consequat duss cim veil mollit. Exercilation veniam
+               consequat sunt nostrud amet
+            </p>
+            <button>Download Resume</button>
+        </div>
+        <div class="avatar-container">
+            <img src="https://i.pinimg.com/236x/e9/e0/7d/e9e07de22e3ef161bf92d1bcf241e4d0.jpg?nii=t" alt="">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .img {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background: url(https://vcdn1-thethao.vnecdn.net/2025/12/02/cgs67cgay5owlofml5c75x2yx4-176-7328-2097-1764638952.jpg?w=500&h=300&q=100&dpr=1&fit=crop&s=E6slPM_iNM3thbqV4gutfQ);
+            background-size: auto;
+            height: 300px;
+            padding: 30px;
+        }
+        .img button {
+            width: 90px;
+            padding: 5px;
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+        }
+        .img-content {
+            color: white;
+            width: 80%;
+        }
+        .button {
+            background-color: #F1F3F7;
+            display: flex;
+            justify-content: flex-end;
+            align-items: baseline;
+            gap: 20px;
+            padding: 20px;
+        }
+        .button button {
+            padding: 5px 10px;
+            background-color: black;
+            border: 1px solid white;
+            color: white;
+            border-radius: 3px;
+        }
+        .btn-left {
+            opacity: 0.4;
+        }
+        .checked {
+            background-color: black;
+            color: white;
+            line-height: 10px;
+            width: 18px;
+            padding: 4px;
+            border-radius: 50%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="img">
+        <button>Football</button>
+        <div class="img-content">
+            <p>Agence France-Presse - 04 June 2023</p>
+            <h1>LIONEL MESSI LEAVING LIGUE 1 TEAM PARIS SAINT-GERMAIN, CLUB CONFIRMS</h1>
+            <P>The Euro Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals</P>
+        </div>
+    </div>
+    <div class="button">
+        <button class="btn-left">&leftarrow;</button>
+        <p class="checked">1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <button class="btn-right">&rightarrow;</button>
+    </div>
+</body>
+</html>

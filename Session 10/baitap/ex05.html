@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Works Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8e8e8; 
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .portfolio-section {
+            width: 750px;
+            margin: 50px 0;
+            padding: 20px;
+        }
+        
+        .section-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .project-item {
+            display: flex; 
+            gap: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-img {
+            width: 150px;
+            height: 150px;
+            flex-shrink: 0; 
+            overflow: hidden;
+            border-radius: 6px;
+        }
+        
+        .project-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            content: url('https://via.placeholder.com/150x150');
+        }
+
+        .project-details {
+            display: flex;
+            flex-direction: column; 
+            flex-grow: 1;
+        }
+
+        .project-title {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .meta-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .project-year {
+            background-color: #142850;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .project-type {
+            font-size: 0.9em;
+            font-weight: 300;
+            color: #888;
+        }
+
+        .project-description {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .page-footer {
+            width: 100%;
+            text-align: center;
+            padding: 40px 0;
+            background-color: #f8f8f8;
+            border-top: 1px solid #ddd;
+        }
+
+        .social-icons a {
+            color: #666;
+            font-size: 1.5em;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .copyright {
+            font-size: 0.8em;
+            color: #999;
+            margin-top: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="portfolio-section">
+        <p class="section-title">Featured works</p>
+        
+        <div class="project-item">
+            <div class="project-img">
+                <img src="../img/img05.1.png" alt="Designing Dashboards">
+            </div>
+            <div class="project-details">
+                <h2 class="project-title">Designing Dashboards</h2>
+                <div class="meta-info">
+                    <span class="project-year">2020</span>
+                    <p class="project-type">Dashboard</p>
+                </div>
+                <p class="project-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </div>
+        
+        <div class="project-item">
+            <div class="project-img">
+                <img src="../img/img05.2.png" alt="Vibrant Portraits">
+            </div>
+            <div class="project-details">
+                <h2 class="project-title">Vibrant Portraits of 2020</h2>
+                <div class="meta-info">
+                    <span class="project-year">2018</span>
+                    <p class="project-type">Illustration</p>
+                </div>
+                <p class="project-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </div>
+        
+        <div class="project-item">
+            <div class="project-img">
+                <img src="../img/img05.3.png" alt="Malayalam type">
+            </div>
+            <div class="project-details">
+                <h2 class="project-title">36 Days of Malayalam type</h2>
+                <div class="meta-info">
+                    <span class="project-year">2018</span>
+                    <p class="project-type">Typography</p>
+                </div>
+                <p class="project-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p class="copyright">Copyright ©2020 All rights reserved</p>
+    </footer>
+</body>
+</html>
