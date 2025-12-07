@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            background: #f0f0f0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            background: #ddd;
+            padding: 20px;
+        }
+
+        .box, .boxA, .boxB, .item {
+            background: #b44;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        i {
+            display: none;
+        }
+
+        /* --- Mobile (<768px) --- */
+        @media (max-width: 767px) {
+            .header {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                color: white;
+            }
+            .box, .boxA, .boxB { width: 100%; }
+            .row { display: flex; flex-direction: column; }
+            .item { width: 100%; }
+        }
+
+        /* --- Tablet (768px - 1199px) --- */
+        @media (min-width: 768px) and (max-width: 1199px) {
+
+            .header {
+                display: flex;
+                align-items: center;
+                color: white;
+                gap: 10px;
+            }
+
+            .box { width: 100%; }
+            .boxA, .boxB { width: 100%; }
+
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .item {
+                width: calc(50% - 5px);
+            }
+        }
+
+        /* --- Desktop (≥1200px) --- */
+        @media (min-width: 1200px) {
+            .header {
+                display: flex;
+                background-color: transparent;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0;
+            }
+
+            .box {
+                width: 90%;
+            }
+
+            .group {
+                display: flex;
+                gap: 10px;
+            }
+
+            .boxA {
+                width: calc(66.66% - 5px);
+            }
+
+            .boxB {
+                width: calc(33.33% - 5px);
+            }
+
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+
+            .item {
+                width: calc(33.33% - 7px);
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <h1>LOGO</h1> 
+            <nav class="box">#nav</nav>
+        </header>
+        
+        <div class="group">
+            <main class="boxA">#main</main>
+            <aside class="boxB">#aside</aside>
+        </div>
+
+        <div class="row">
+            <div class="item">.column1</div>
+            <div class="item">.column2</div>
+            <div class="item">.column3</div>
+            <div class="item">.column4</div>
+            <div class="item">.column5</div>
+            <div class="item">.column6</div>
+        </div>
+
+    </div>
+</body>
+</html>

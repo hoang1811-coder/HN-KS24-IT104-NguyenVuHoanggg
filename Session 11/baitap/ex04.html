@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            background: #eee;
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            font-family: Arial;
+        }
+        .container {
+            width: 90%;
+            max-width: 1400px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .box {
+            height: 120px;
+            border-radius: 6px;
+        }
+
+        /* Đổi tên class */
+        .box1 { background: #ffa033; }
+        .box2 { background: #ffae4a; }
+        .box3 { background: #d7f017; }
+        .box4 { background: #3f88d1; }
+        .box5 { background: #dfdfdf; }
+
+        @media (min-width: 1200px) {
+            .box1, .box2 { 
+                width: calc(50% - 5px);
+            }
+            .box3 { 
+                width: 100%; height: 180px;
+            }
+            .box4 { 
+                width: calc(33.33% - 7px);
+            }
+            .box5 {
+                width: calc(50% - 5px);
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1199px) {
+            .box1, .box2 { 
+                width: 50%; 
+            }
+            .box3 { 
+                width: 100%; height: 200px; 
+            }
+            .box4 { 
+                width: 100%; 
+            }
+            .box5 { 
+                width: calc(50% - 5px); 
+            }
+        }
+
+        @media (max-width: 767px) {
+            .box { 
+                width: 100% !important; 
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+
+    <div class="box box4"></div>
+    <div class="box box4"></div>
+    <div class="box box4"></div>
+
+    <div class="box box5"></div>
+    <div class="box box5"></div>
+    <div class="box box5"></div>
+    <div class="box box5"></div>
+
+</div>
+</body>
+</html>
