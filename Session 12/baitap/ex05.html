@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rikkei Cards</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .rk-card {
+            border-radius: 16px;
+            overflow: hidden;
+            position: relative;
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .rk-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.45);
+        }
+
+        .rk-content {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+        }
+
+        .rk-meta span {
+            font-size: 13px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+<div class="container py-4">
+    <h4 class="mb-3">Rikkei cards</h4>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="rk-card" style="background-image: url('https://i.imgur.com/ZLZ8G6E.jpeg');">
+                <div class="rk-overlay"></div>
+
+                <div class="rk-content">
+                    <h5 class="fw-bold">Short title, long jacket</h5>
+                    <div class="rk-meta mt-2">
+                        <span>🌍 Earth</span>
+                        <span>📅 3d</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="rk-card" style="background-image: url('https://i.imgur.com/47mF7QE.jpeg');">
+                <div class="rk-overlay"></div>
+
+                <div class="rk-content">
+                    <h5 class="fw-bold">
+                        Much longer title that wraps<br>to multiple lines
+                    </h5>
+                    <div class="rk-meta mt-2">
+                        <span>📍 Pakistan</span>
+                        <span>📅 4d</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="rk-card" style="background-image: url('https://i.imgur.com/Y4hldfU.jpeg');">
+                <div class="rk-overlay"></div>
+
+                <div class="rk-content">
+                    <h5 class="fw-bold">
+                        Another longer title belongs<br>here
+                    </h5>
+                    <div class="rk-meta mt-2">
+                        <span>📍 California</span>
+                        <span>📅 5d</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
