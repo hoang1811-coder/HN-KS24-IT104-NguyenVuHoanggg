@@ -1,0 +1,267 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            border-bottom: 1px solid #E5E7EB;
+            background-color: white;
+        }
+        .slogan {
+            height: 73px;
+        }
+        header .slogan .content-one button {
+            height: 40px;
+            width: 40px;
+            background-color: #1a73e8;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            padding: 0;
+        }
+        header .slogan .content-one p {
+            margin: 0;
+            line-height: 40px;
+            font-weight: bold;
+        }
+        .content_two {
+            align-self: center;
+        }
+        .content_two a {
+            color: #374151 !important;
+            font-weight: 500;
+        }
+        .content_three p {
+            margin: 0;
+            font-weight: 500;
+            color: #374151;
+        }
+        .content_three .btn-primary {
+            background-color: #1a73e8 !important;
+            border-color: #1a73e8 !important;
+            padding: 8px 15px;
+            font-weight: 600;
+        }
+
+        main {
+            padding: 80px 0;
+        }
+        .banner_left_one h1 {
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 58px;
+            line-height: 1.2;
+        }
+        .banner_left_two {
+            margin-top: 31px;
+            font-size: 18px;
+            color: #6B7280;
+        }
+        .banner_left_three {
+            margin-top: 50px;
+        }
+        .banner_left_four p {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 38.4px;
+            margin-bottom: 5px;
+        }
+        .banner_left_five p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22.4px;
+            color: #6B7280;
+        }
+
+        .banner_right {
+            position: relative; 
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .banner_right_one img {
+            width: 100%;
+            height: auto;
+            max-width: 684px; 
+            border-radius: 20px;
+        }
+        .banner_right_two {
+            background-color: white;
+            width: 260px;
+            height: 96px;
+            border-radius: 10px;
+            border: 1px solid #E5E7EB;
+            position: absolute;
+            bottom: -48px;
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .button-group-left img {
+            width: 48px;
+            height: 48px;
+        }
+        .button-group-right p {
+            margin-bottom: 0;
+        }
+
+        .lesson {
+            padding: 80px 0;
+        }
+        .lesson .lesson-content-top {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .lesson .lesson-content-top .lesson-content-top-one button {
+            background-color: #DBEAFE;
+            color: #1D4ED8;
+            font-weight: 600;
+            border: none;
+            border-radius: 9999px;
+            padding: 5px 20px;
+        }
+        .lesson-content-top-two h1 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        .lesson-content-top-three p {
+            color: #6B7280;
+        }
+
+        .lesson-content-bottom {
+            margin-top: 69px;
+        }
+        .lesson-content-bottom-one {
+            width: 100%;
+            max-width: 384px;
+            height: 202px;
+            border: 1px solid #E5E7EB;
+            border-radius: 10px;
+            position: relative;
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+        .lesson-content-bottom-one button {
+            width: 48px;
+            height: 48px;
+            border-radius: 8px;
+            border: none;
+            background-color: #DBEAFE;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: static;
+        }
+        .lesson-content-bottom-one h4 {
+            margin-top: 16px;
+            margin-bottom: 8px;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        .lesson-content-bottom-one p {
+            position: static;
+            color: #6B7280;
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+        .section-banner {
+            background-color: #2256D5;
+            padding: 100px 0;
+        }
+        .section-banner-left {
+            color: white;
+        }
+        .section-banner-left-one h1 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 1.3;
+        }
+        .section-banner-left-two p {
+            color: #BFDBFE;
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 24px;
+        }
+        .section-banner-left-three {
+            margin-top: 37px;
+        }
+        .section-banner-left-three .btn-light {
+            color: #2256D5;
+            font-weight: 600;
+        }
+        .section-banner-left-three .btn-primary {
+            background-color: transparent !important;
+            border-color: white !important;
+            color: white !important;
+            font-weight: 600;
+        }
+        .section-banner-left-four {
+            margin-top: 24px;
+        }
+        .section-banner-right img {
+            width: 100%;
+            height: auto;
+            max-width: 584px;
+            border-radius: 10px;
+        }
+
+        .footer {
+            background-color: #111827;
+            padding: 80px 0 20px 0;
+        }
+        .footer-top {
+            display: flex;
+            gap: 55px;
+            flex-wrap: wrap;
+            position: relative;
+
+        }
+        
+        .footer-card-one-top p {
+            color: white;
+            font-weight: bold;
+        }
+        .footer-card-one-bottom p {
+            width: 259px;
+            color: #9CA3AF;
+            font-size: 0.95rem;
+        }
+        .footer-card-two-top h2 {
+            color: white;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .footer-card-two-bottom ul,
+        .footer-card-three-bottom ul,
+        .footer-card-four-bottom ul {
+            padding-left: 0;
+        }
+        .footer-card-two-bottom a,
+        .footer-card-three-bottom a,
+        .footer-card-four-bottom a {
+            color: #9CA3AF !important;
+            font-size: 0.95rem;
+        }
+        .footer-card-three {
+        }
+        .footer-bottom {
+            border-top: 1px solid #374151;
+            margin-top: 40px;
+            padding-top: 20px;
+            text-align: center;
+            color: #9CA3AF;
+            font-size: 0.9rem;
+        }
+        .footer-card-four {
+            position: absolute;
+            right: 115px;
+            top: 0;
+            
+        }
